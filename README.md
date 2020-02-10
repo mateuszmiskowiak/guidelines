@@ -206,4 +206,7 @@ That said, it is interesting to look at the style recommendations that are put o
 You can follow these rules if you want to follow the guidelines for ‘Google compliant source code’ — but, of course, plenty of people disagree, and you’re free to brush any or all of this off.
 
 I personally think there are plenty of cases where Airbnb’s spec is more appealing than Google’s. No matter the stance you take on these particular rules, it is still important to keep stylistic consistency in mind when write any sort of code.
-master
+
+# TypeScript
+
+1. Do not use "I" as a prefix for interface names.
