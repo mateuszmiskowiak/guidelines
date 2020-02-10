@@ -1,5 +1,6 @@
 # guidelines
 
+
 Don't use preprocessor syntax, e.g. Sass, Less, or Stylus, in your MDN example code. MDN documents the vanilla CSS language, and using preprocessors only serves to raise the bar to understanding the examples, potentially confusing readers.
 
 Don't use specific CSS methodologies
@@ -10,6 +11,13 @@ For maximum flexibility over the widest possible range of devices, it is a good 
 
 Don't use resets
 For maximum control over CSS across platforms, a lot of people used to use CSS resets to remove every style, before then building things back up themselves. This certainly has its merits, but especially in the modern world CSS resets can be overkill, resulting in lots of extra time spent reimplementing things that weren't completely broken in the first place, like default margins, list styles, etc.
+
+Agree on the naming convention
+There are many different naming conventions for CSS. The most popular ones are BEM, SMACSS, and OOCSS, to name just a few. If your team decides to adapt to the naming convention, every developer should understand the structure of the component. The code would feel like it is written by a single person, which would improve readability. Additionally, isolating CSS naming convention from JS naming convention is always a good idea.
+
+Define coding rules
+Coding rules should include decisions about defining global styles, variables, mixins, functions and more. These coding rules could be about anything, from typography to unit usage.
+
 For anyone who isn’t already familiar with it, Google puts out a style guide for writing JavaScript that lays out (what Google believes to be) the best stylistic practices for writing clean, understandable code.
 
 These are not hard and fast rules for writing valid JavaScript, only proscriptions for maintaining consistent and appealing style choices throughout your source files. This is particularly interesting for JavaScript, which is a flexible and forgiving language that allows for a wide variety of stylistic choices.
@@ -155,3 +163,4 @@ That said, it is interesting to look at the style recommendations that are put o
 You can follow these rules if you want to follow the guidelines for ‘Google compliant source code’ — but, of course, plenty of people disagree, and you’re free to brush any or all of this off.
 
 I personally think there are plenty of cases where Airbnb’s spec is more appealing than Google’s. No matter the stance you take on these particular rules, it is still important to keep stylistic consistency in mind when write any sort of code.
+
