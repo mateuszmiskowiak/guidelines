@@ -3,6 +3,21 @@ For readability, avoid lines longer than 80 characters.
 
 If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or a comma.
 
+JSX — Allows us to write HTML like syntax which gets
+transformed to lightweightJavaScript objects.
+
+Virtual DOM — A JavaScript representation of the actual
+DOM.
+
+React.Component — The way in which you create a new component.
+
+render (method) — Describes what the UI will look like for
+the particular component.
+
+ReactDOM.render — Renders a React component to a DOM node.
+
+state — The internal data store (object) of a component.
+
 Agree on the naming convention
 There are many different naming conventions for CSS. The most popular ones are BEM, SMACSS, and OOCSS, to name just a few. If your team decides to adapt to the naming convention, every developer should understand the structure of the component. The code would feel like it is written by a single person, which would improve readability. Additionally, isolating CSS naming convention from JS naming convention is always a good idea.
 
