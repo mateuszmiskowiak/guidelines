@@ -1,11 +1,36 @@
 
+
 # guidelines react
+
 Stability
 Configuration
 
 For readability, avoid lines longer than 80 characters.
 
 If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or a comma.
+
+GL_typeScript_BC
+
+** Diagnostic Message Codes **
+
+Diagnostics are categorized into general ranges. If adding a new diagnostic message, use the first integral number greater than the last used number in the appropriate range.
+
+1000 range for syntactic messages
+2000 for semantic messages
+4000 for declaration emit messages
+5000 for compiler options messages
+6000 for command line compiler messages
+7000 for noImplicitAny messages
+
+** General Constructs **
+
+For a variety of reasons, we avoid certain constructs, and use some of our own. Among them:
+
+Do not use for..in statements; instead, use ts.forEach, ts.forEachKey and ts.forEachValue. Be aware
+ of their slightly different semantics.
+Try to use ts.forEach, ts.map, and ts.filter instead of loops when it is not strongly inconvenient.
+
+# guidelines
 
 JSX — Allows us to write HTML like syntax which gets
 transformed to lightweightJavaScript objects.
@@ -174,8 +199,3 @@ You can follow these rules if you want to follow the guidelines for ‘Google co
 
 I personally think there are plenty of cases where Airbnb’s spec is more appealing than Google’s. No matter the stance you take on these particular rules, it is still important to keep stylistic consistency in mind when write any sort of code.
 
-<<<<<<< HEAD
->>>>>>> 8a2f56033d66803724d5a7db6a5e354da128e233
-=======
-
->>>>>>> fb841b72873bcd1d7d9263b6e1f84e03b0184b65
