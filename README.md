@@ -174,6 +174,13 @@ You can follow these rules if you want to follow the guidelines for ‘Google co
 
 I personally think there are plenty of cases where Airbnb’s spec is more appealing than Google’s. No matter the stance you take on these particular rules, it is still important to keep stylistic consistency in mind when write any sort of code.
 
+
+# TypeScript
+
+1. Do not use "I" as a prefix for interface names.
+
+
+
 <<<<<<< HEAD
 >>>>>>> 8a2f56033d66803724d5a7db6a5e354da128e233
 =======
