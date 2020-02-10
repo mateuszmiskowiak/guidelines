@@ -21,6 +21,27 @@ Try to use ts.forEach, ts.map, and ts.filter instead of loops when it is not str
 
 # guidelines
 
+JSX — Allows us to write HTML like syntax which gets
+transformed to lightweightJavaScript objects.
+
+Virtual DOM — A JavaScript representation of the actual
+DOM.
+
+React.Component — The way in which you create a new component.
+
+render (method) — Describes what the UI will look like for
+the particular component.
+
+ReactDOM.render — Renders a React component to a DOM node.
+
+state — The internal data store (object) of a component.
+
+Agree on the naming convention
+There are many different naming conventions for CSS. The most popular ones are BEM, SMACSS, and OOCSS, to name just a few. If your team decides to adapt to the naming convention, every developer should understand the structure of the component. The code would feel like it is written by a single person, which would improve readability. Additionally, isolating CSS naming convention from JS naming convention is always a good idea.
+
+Define coding rules
+Coding rules should include decisions about defining global styles, variables, mixins, functions and more. These coding rules could be about anything, from typography to unit usage.
+
 For anyone who isn’t already familiar with it, Google puts out a style guide for writing JavaScript that lays out (what Google believes to be) the best stylistic practices for writing clean, understandable code.
 
 These are not hard and fast rules for writing valid JavaScript, only proscriptions for maintaining consistent and appealing style choices throughout your source files. This is particularly interesting for JavaScript, which is a flexible and forgiving language that allows for a wide variety of stylistic choices.
@@ -166,3 +187,4 @@ That said, it is interesting to look at the style recommendations that are put o
 You can follow these rules if you want to follow the guidelines for ‘Google compliant source code’ — but, of course, plenty of people disagree, and you’re free to brush any or all of this off.
 
 I personally think there are plenty of cases where Airbnb’s spec is more appealing than Google’s. No matter the stance you take on these particular rules, it is still important to keep stylistic consistency in mind when write any sort of code.
+
