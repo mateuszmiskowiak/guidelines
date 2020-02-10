@@ -1,8 +1,43 @@
 
 GL_javaScript_pp
+GL_javaScript_pp
 Always put spaces around operators ( = + - * / ), and after commas.
 Always end a simple statement with a semicolon.
 Short objects can be written compressed, on one line, using spaces only between properties.
+
+
+
+
+
+Stability
+Configuration
+
+For readability, avoid lines longer than 80 characters.
+
+If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or a comma.
+
+GL_typeScript_BC
+
+** Diagnostic Message Codes **
+
+Diagnostics are categorized into general ranges. If adding a new diagnostic message, use the first integral number greater than the last used number in the appropriate range.
+
+1000 range for syntactic messages
+2000 for semantic messages
+4000 for declaration emit messages
+5000 for compiler options messages
+6000 for command line compiler messages
+7000 for noImplicitAny messages
+
+** General Constructs **
+
+For a variety of reasons, we avoid certain constructs, and use some of our own. Among them:
+
+Do not use for..in statements; instead, use ts.forEach, ts.forEachKey and ts.forEachValue. Be aware
+ of their slightly different semantics.
+Try to use ts.forEach, ts.map, and ts.filter instead of loops when it is not strongly inconvenient.
+
+
 
 
 JSX — Allows us to write HTML like syntax which gets
