@@ -1,8 +1,26 @@
-<<<<<<< HEAD
 
 # guidelines react
 Stability
 Configuration
+
+For readability, avoid lines longer than 80 characters.
+
+If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or a comma.
+
+JSX — Allows us to write HTML like syntax which gets
+transformed to lightweightJavaScript objects.
+
+Virtual DOM — A JavaScript representation of the actual
+DOM.
+
+React.Component — The way in which you create a new component.
+
+render (method) — Describes what the UI will look like for
+the particular component.
+
+ReactDOM.render — Renders a React component to a DOM node.
+
+state — The internal data store (object) of a component.
 
 Agree on the naming convention
 There are many different naming conventions for CSS. The most popular ones are BEM, SMACSS, and OOCSS, to name just a few. If your team decides to adapt to the naming convention, every developer should understand the structure of the component. The code would feel like it is written by a single person, which would improve readability. Additionally, isolating CSS naming convention from JS naming convention is always a good idea.
@@ -156,4 +174,8 @@ You can follow these rules if you want to follow the guidelines for ‘Google co
 
 I personally think there are plenty of cases where Airbnb’s spec is more appealing than Google’s. No matter the stance you take on these particular rules, it is still important to keep stylistic consistency in mind when write any sort of code.
 
+<<<<<<< HEAD
 >>>>>>> 8a2f56033d66803724d5a7db6a5e354da128e233
+=======
+
+>>>>>>> fb841b72873bcd1d7d9263b6e1f84e03b0184b65
