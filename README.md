@@ -1,6 +1,13 @@
 
+GL_javaScript_pp
+GL_javaScript_pp
+Always put spaces around operators ( = + - * / ), and after commas.
+Always end a simple statement with a semicolon.
+Short objects can be written compressed, on one line, using spaces only between properties.
 
-# guidelines react
+
+
+
 
 Stability
 Configuration
@@ -30,7 +37,8 @@ Do not use for..in statements; instead, use ts.forEach, ts.forEachKey and ts.for
  of their slightly different semantics.
 Try to use ts.forEach, ts.map, and ts.filter instead of loops when it is not strongly inconvenient.
 
-# guidelines
+
+
 
 JSX — Allows us to write HTML like syntax which gets
 transformed to lightweightJavaScript objects.
@@ -202,4 +210,3 @@ I personally think there are plenty of cases where Airbnb’s spec is more appea
 # TypeScript
 
 1. Do not use "I" as a prefix for interface names.
-
